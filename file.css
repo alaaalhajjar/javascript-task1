@@ -1,0 +1,108 @@
+
+.shelfOneDiv,.shelfTowDiv,
+.shelfThreeDiv,.shelfFourDiv{
+ width: 500px;
+   background-color: #fcfcfc;
+   border: 1px solid #aca5a5; 
+   height: 350px;
+   margin: 20px 100px;
+   overflow-y:scroll;
+   overflow-x: hidden;
+}
+.shelfOneDiv::-webkit-scrollbar,
+.shelfTowDiv::-webkit-scrollbar,
+.shelfThreeDiv::-webkit-scrollbar,
+.shelfFourDiv::-webkit-scrollbar
+ {
+    width: 5px;
+}
+
+.shelfOneDiv::-webkit-scrollbar-thumb,
+.shelfTowDiv::-webkit-scrollbar-thumb,
+.shelfThreeDiv::-webkit-scrollbar-thumb,
+.shelfFourDiv::-webkit-scrollbar-thumb{
+    background-color: #ffffff; 
+}
+.shelfOneDiv::-webkit-scrollbar-track,
+.shelfTowDiv::-webkit-scrollbar-track ,
+.shelfThreeDiv::-webkit-scrollbar-track, 
+.shelfFourDiv::-webkit-scrollbar-track  {
+    background-color: #ffffff;
+}
+.shelfcard h3{
+    width: 100%;
+    font-size: 24px;
+    color: rgb(241, 31, 31);
+    text-align: center;
+    margin: 20px auto;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    background-color: #f1d9d9;
+    height: 48px;
+    margin:  50px 300px ;
+    padding: 10px;
+    cursor: pointer;
+   transform: translate(50%,50%);
+
+}
+form {
+    width: 350px;
+    border-radius: 16px;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    margin-left: 30%;
+    padding: 20px;
+}
+form input,
+form select{
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+    width: 250px;
+    border-radius: 16px;
+    border: none;
+    background-color: #dbdbdb;
+    height: 48px;
+    margin:  10px auto;
+    padding: 10px;
+}
+.footerbook{
+    display: flex;
+    width: 90%;
+    margin: 10px;
+    font-size: 16px;
+    justify-content: space-around;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    border-radius: 8px;
+}
+/* .imageStyle{
+    width: 45%;
+    height: 50%;
+    border-radius: 16px;
+} */
+.bookcard{
+    border-radius: 8px;
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    margin: 10px 25px
+
+}
+.bookImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 15px 15px;
+
+}
